@@ -1,4 +1,4 @@
-# Awesome Linux Reverse Engineering [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome [Linux](https://en.wikipedia.org/wiki/Linux) Reverse Engineering [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
 ### My Other Awesome Lists

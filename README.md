@@ -2,7 +2,10 @@
 
 
 ## 📖 Contents
-
+- [ELF File Viewer/Editor](#elf-file-viewereditor)
+- [My Other Awesome Lists](#my-other-awesome-lists)
+- [Contributing](#contributing)
+- [Contributors](#contributors)
 
 ### ELF File Viewer/Editor
 - [Online ELF Viewer](https://www.sunshine2k.de/coding/javascript/onlineelfviewer/onlineelfviewer.html) - [Online ELF viewer](https://www.sunshine2k.de/coding_typescript.html#onlineELFviewer) to show the contents ELF files.

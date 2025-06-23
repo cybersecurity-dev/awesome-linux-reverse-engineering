@@ -1,6 +1,19 @@
 # Awesome [Linux](https://en.wikipedia.org/wiki/Linux) [Reverse](https://www.reddit.com/r/ReverseEngineering/) [Engineering](https://youtube.com/playlist?list=PL9V4Zu3RroiX1tVn16GkLG7iSG20DOvuK&si=sHkrQY7ts6vFzAWi) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 
+## Contents
+
+
+### Static
+-
+-
+-
+
+### Dynamic
+-
+-
+-
+
 ### My Other Awesome Lists
 
 * [awesome-advanced-persistent-threat](https://github.com/cybersecurity-dev/awesome-advanced-persistent-threat)

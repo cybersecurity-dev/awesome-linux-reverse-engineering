@@ -3,6 +3,8 @@
 
 ## 📖 Contents
 - [ELF File Viewer/Editor](#elf-file-viewereditor)
+- [Datasets](#datasets)
+- [Scientific Research](#scientific-research)
 - [My Other Awesome Lists](#my-other-awesome-lists)
 - [Contributing](#contributing)
 - [Contributors](#contributors)
@@ -21,6 +23,12 @@
 -
 -
 -
+
+### Datasets
+You can access the datasets [here](https://github.com/cybersecurity-dev/awesome-malware-datasets?tab=readme-ov-file#linux).
+
+### Scientific Research
+You can access the Scientific Research [here](https://github.com/cybersecurity-dev/awesome-static-linux-malware-analysis-scientific-research).
 
 ### My Other Awesome Lists
 

@@ -37,6 +37,24 @@
 
 ### [Disassembler](https://en.wikipedia.org/wiki/Disassembler)
 
+- [GNU-objdump](https://man7.org/linux/man-pages/man1/objdump.1.html)
+
+- [LLVM-objdump](https://llvm.org/docs/CommandGuide/llvm-objdump.html)
+
+- [radare2](https://radare2.com/)
+
+- [ndisasm](https://linux.die.net/man/1/ndisasm)
+
+- [RetDec CLI](https://github.com/avast/retdec)
+
+- [Capstone](https://www.capstone-engine.org/)
+
+- [Hopper](https://www.hopperapp.com/)
+
+- [Ghidra](https://github.com/nationalsecurityagency/ghidra)
+
+- [REDasm](https://redasm.dev/)
+
 ### [Decompiler](https://en.wikipedia.org/wiki/Decompiler)
 
 ### [Debugging](https://en.wikipedia.org/wiki/Debugger) Tools

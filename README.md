@@ -1,7 +1,7 @@
 <div align="center">
     <p align="center">
         <a href="https://wikipedia.org/wiki/Linux_kernel">
-          <img width="10%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/Tux.svg" />
+          <img width="7%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/Tux.svg" />
         </a>
     </p>
 
@@ -74,6 +74,32 @@ flowchart LR
     <a href="https://cyberthreatdefence.com/my_awesome_lists"><img height="20" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/blog.svg" alt="My Awesome Lists"></a>
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
 </p>
+
+```mermaid
+flowchart TB
+    ROOT["Linux Reverse Engineering Tool Types"]
+
+    ROOT --> INSPECT["ELF and File Inspection<br/>file, strings, readelf, nm<br/>checksec, binwalk, ldd"]
+    ROOT --> DISASM["Disassemblers<br/>objdump, llvm-objdump, ndisasm<br/>radare2, Rizin, Ghidra, REDasm"]
+    ROOT --> DECOMP["Decompilers<br/>Ghidra, RetDec, Hex-Rays<br/>Binary Ninja, Hopper, Snowman"]
+    ROOT --> DEBUG["Debuggers<br/>GDB, LLDB, rr, radare2<br/>GEF, pwndbg, PEDA"]
+    ROOT --> TRACE["Tracing and Profiling<br/>strace, ltrace, perf, Valgrind<br/>bpftrace, SystemTap, ftrace"]
+    ROOT --> INSTR["Instrumentation and Emulation<br/>Frida, QBDI, DynamoRIO<br/>QEMU, Unicorn, angr, Triton"]
+    ROOT --> EDIT["Hex Editing and Patching<br/>ImHex, hexedit, LIEF<br/>patchelf, Cutter, Ghidra"]
+    ROOT --> GRAPH["Graphing and Documentation<br/>Cutter, angr, BAP, Graphviz<br/>Mermaid, Markdown"]
+
+    classDef root fill:#102a43,stroke:#32d5ff,color:#ffffff,stroke-width:3px
+    classDef blue fill:#10334a,stroke:#32d5ff,color:#ffffff,stroke-width:2px
+    classDef green fill:#123b3c,stroke:#45e0b7,color:#ffffff,stroke-width:2px
+    classDef purple fill:#261d4d,stroke:#9a72ff,color:#ffffff,stroke-width:2px
+    classDef orange fill:#493218,stroke:#ffb454,color:#ffffff,stroke-width:2px
+
+    class ROOT root
+    class INSPECT,DISASM blue
+    class DECOMP,INSTR green
+    class DEBUG,TRACE purple
+    class EDIT,GRAPH orange
+```
 
 ## 📖 Contents
 - [ELF File Viewer/Editor](#elf-file-viewereditor)

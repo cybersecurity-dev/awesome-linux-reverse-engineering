@@ -7,26 +7,26 @@
 
 ```mermaid
 flowchart LR
-    A(["Start: Linux ELF binary"]) --> B["Identify & triage<br/>file · strings · sha256sum · checksec · binwalk"]
-    B --> C["Inspect ELF structure<br/>readelf · elfutils · nm · objdump · XELFViewer<br/><small>Headers · sections · symbols · relocations · imports</small>"]
+    A(["Start: Linux ELF binary"]) --> B["Identify & triage<br/>file · strings · sha256sum<br/>checksec · binwalk"]
+    B --> C["Inspect ELF structure<br/>readelf · elfutils · nm<br/>objdump · XELFViewer<br/><small>Headers · sections · symbols<br/>relocations · imports</small>"]
 
     C --> S0
     C --> D0
 
     subgraph STATIC["Static analysis"]
         direction TB
-        S0["Disassemblers<br/>GNU objdump · LLVM objdump · radare2 / Cutter<br/>Ghidra · IDA Free · Binary Ninja · Hopper<br/>Rizin · REDasm · ndisasm · Capstone"]
+        S0["Disassemblers<br/>GNU objdump · LLVM objdump · radare2 / Cutter<br/>Ghidra · IDA Free · Binary Ninja<br/>Hopper<br/>Rizin · REDasm<br/>ndisasm · Capstone"]
 
-        S0 --> S1["Decompilers<br/>Ghidra · RetDec · Hex-Rays · Binary Ninja<br/>Hopper · Snowman · angr decompiler"]
+        S0 --> S1["Decompilers<br/>Ghidra · RetDec<br/>Hex-Rays · Binary Ninja<br/>Hopper · Snowman · angr decompiler"]
 
-        S1 --> S2["Code and graph analysis<br/>Ghidra · radare2 / Cutter · angr · BAP<br/><small>CFG · call graph · data flow · symbolic execution</small>"]
+        S1 --> S2["Code and graph analysis<br/>Ghidra · radare2 / Cutter · angr · BAP<br/><small>CFG · call graph<br/>data flow<br/>symbolic execution</small>"]
     end
 
     subgraph DYNAMIC["Dynamic analysis"]
         direction TB
-        D0["Debuggers<br/>GDB · LLDB · rr · radare2<br/>GEF · pwndbg · peda · gdb-dashboard"]
+        D0["Debuggers<br/>GDB · LLDB<br/>rr · radare2<br/>GEF · pwndbg · peda<br/>gdb-dashboard"]
 
-        D0 --> D1["System and library tracing<br/>strace · ltrace · perf · bpftrace<br/>SystemTap · ftrace · valgrind"]
+        D0 --> D1["System and library tracing<br/>strace · ltrace · perf<br/>bpftrace<br/>SystemTap · ftrace · valgrind"]
 
         D1 --> D2["Runtime inspection<br/>Frida · QBDI · DynamoRIO · Intel Pin<br/>gcore · pmap · procfs"]
     end
@@ -38,7 +38,7 @@ flowchart LR
 
     E --> F["Binary patching and editing<br/>radare2 / Cutter · Ghidra · LIEF · patchelf<br/>hexedit · wxHexEditor · ImHex"]
 
-    F --> G(["Document results<br/>Annotated pseudocode · CFGs · call graphs · report"])
+    F --> G(["Document results<br/>Annotated pseudocode · CFGs<br/>call graphs · report"])
 
     G --> H["Safety<br/>Analyze only authorized software.<br/>Run unknown binaries in an isolated VM or sandbox.<br/>Do not upload sensitive binaries to online services."]
 
@@ -69,7 +69,7 @@ flowchart LR
 <p align="center">
     <a href="https://github.com/cybersecurity-dev/"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/github.svg" alt="GitHub"></a>
     &nbsp;
-    <a href="https://www.youtube.com/@CyberThreatDefence"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
+    <a href="https://www.youtube.com/@CyberThreatDefense"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
     &nbsp;
     <a href="https://cyberthreatdefence.com/my_awesome_lists"><img height="20" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/blog.svg" alt="My Awesome Lists"></a>
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
@@ -77,7 +77,7 @@ flowchart LR
 
 ```mermaid
 flowchart TB
-    ROOT["Linux Reverse Engineering Tool Types"]
+    ROOT["Linux Reverse<br/>Engineering Tool"]
 
     ROOT --> INSPECT["ELF and File Inspection<br/>file, strings, readelf, nm<br/>checksec, binwalk, ldd"]
     ROOT --> DISASM["Disassemblers<br/>objdump, llvm-objdump, ndisasm<br/>radare2, Rizin, Ghidra, REDasm"]
